@@ -1,0 +1,21 @@
+g++ -o bin\N20.exe src\N20_enthalpy.cpp
+g++ -o bin\HEM.exe src\HEM_enthalpy.cpp
+
+
+
+#CC = g++
+
+#all: Exe 
+
+#Exe : HEM_enthalpy.o N20_enthalpy.o
+
+#    $(CC) -o Exe HEM_enthalpy.o N20_enthalpy.o
+
+#HEM_enthalpy.o: src\HEM_enthalpy.cpp
+#    $(CC) -c src\HEM_enthalpy.cpp
+
+#N20_enthalpy.o: src\N20_enthalpy.cpp
+    $(CC) -c src\N20_enthalpy.cpp
+
+#clean:
+#    rm -rf *o HEM_enthalpy.o N20_enthalpy.o
