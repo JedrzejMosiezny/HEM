@@ -1,0 +1,5 @@
+CSOURCES= $(SRC)FictiousGasCO2_t7_37_7-1bar.c
+HSOURCES=
+VERSION=3ddp_node
+PARALLEL_NODE=ibmmpi
+GPU_SUPPORT=off
