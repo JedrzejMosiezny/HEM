@@ -1,0 +1,108 @@
+/file/read-case-data "D:/03_PROJEKTY/08_HEM/Case/3D-icem/multiphase/6x25s_v07_40s-1-30000.cas"
+/view/camera/projection orthographic
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+
+/views/restore-view top
+/views/camera/roll-camera 270
+/views/camera/orbit-camera 0 45
+/views/camera/zoom-camera 5
+/views/camera/target 0.018 -0.005 -0.005
+
+/display/set/contours/surfaces 23
+
+/display/contour phase-1 velocity-magnitude 0 55
+/display/save-picture t40-mp-merid-p1-vmag.tiff
+/display/contour phase-2 velocity-magnitude 0 55
+/display/save-picture t40-mp-merid-p2-vmag.tiff
+/display/contour phase-2 vof 0 1
+/display/save-picture t40-mp-merid-p2-vof.tiff
+
+/views/restore-view back
+/views/camera/roll-camera 270
+/views/camera/zoom-camera 12
+/views/camera/target 0.006 -0.005 0
+
+/display/set/contours/surfaces 21
+
+/display/contour phase-1 velocity-magnitude 0 55
+/display/save-picture t40-mp-inj-p1-vmag.tiff
+/display/contour phase-2 velocity-magnitude 0 55
+/display/save-picture t40-mp-inj-p2-vmag.tiff
+/display/contour phase-2 vof 0 1
+/display/save-picture t40-mp-inj-p2-vof.tiff
+
+/file/read-case-data "D:/03_PROJEKTY/08_HEM/Case/3D-icem/multiphase/6x25s_v07_55s-2-21900.cas"
+/view/camera/projection orthographic
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+
+/views/restore-view top
+/views/camera/roll-camera 270
+/views/camera/orbit-camera 0 45
+/views/camera/zoom-camera 5
+/views/camera/target 0.018 -0.005 -0.005
+
+/display/set/contours/surfaces 23
+
+/display/contour phase-1 velocity-magnitude 0 55
+/display/save-picture t55-mp-merid-p1-vmag.tiff
+/display/contour phase-2 velocity-magnitude 0 55
+/display/save-picture t55-mp-merid-p2-vmag.tiff
+/display/contour phase-2 vof 0 1
+/display/save-picture t55-mp-merid-p2-vof.tiff
+
+/views/restore-view back
+/views/camera/roll-camera 270
+/views/camera/zoom-camera 12
+/views/camera/target 0.006 -0.005 0
+
+/display/set/contours/surfaces 21
+
+/display/contour phase-1 velocity-magnitude 0 55
+/display/save-picture t55-mp-inj-p1-vmag.tiff
+/display/contour phase-2 velocity-magnitude 0 55
+/display/save-picture t55-mp-inj-p2-vmag.tiff
+/display/contour phase-2 vof 0 1
+/display/save-picture t55-mp-inj-p2-vof.tiff
+
+/file/read-case-data "D:/03_PROJEKTY/08_HEM/Case/3D-icem/multiphase/6x25s_v07_70s-1-24500.cas"
+/view/camera/projection orthographic
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+
+/views/restore-view top
+/views/camera/roll-camera 270
+/views/camera/orbit-camera 0 45
+/views/camera/zoom-camera 5
+/views/camera/target 0.018 -0.005 -0.005
+
+/display/set/contours/surfaces 23
+
+/display/contour phase-1 velocity-magnitude 0 55
+/display/save-picture t70-mp-merid-p1-vmag.tiff
+/display/contour phase-2 velocity-magnitude 0 55
+/display/save-picture t70-mp-merid-p2-vmag.tiff
+/display/contour phase-2 vof 0 1
+/display/save-picture t70-mp-merid-p2-vof.tiff
+/display/save-picture test.tiff
+
+/views/restore-view back
+/views/camera/roll-camera 270
+/views/camera/zoom-camera 12
+/views/camera/target 0.006 -0.005 0
+
+/display/set/contours/surfaces 21
+
+/display/contour phase-1 velocity-magnitude 0 55
+/display/save-picture t70-mp-inj-p1-vmag.tiff
+/display/contour phase-2 velocity-magnitude 0 55
+/display/save-picture t70-mp-inj-p2-vmag.tiff
+/display/contour phase-2 vof 0 1
+/display/save-picture t70-mp-inj-p2-vof.tiff

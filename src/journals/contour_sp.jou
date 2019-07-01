@@ -1,0 +1,96 @@
+/file/read-case-data "D:/03_PROJEKTY/08_HEM/Case/3D-icem/incompressible/6x25s_v07_4s_complete.cas"
+/view/camera/projection orthographic
+
+/views/restore-view top
+/views/camera/roll-camera 270
+/views/camera/orbit-camera 0 55
+/views/camera/zoom-camera 5
+/views/camera/target 0.018 -0.005 -0.005
+
+/display/set/contours/surfaces 23
+
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+/display/contour velocity-magnitude 0 55
+/display/save-picture t40-incomp-merid-vmag.tiff
+
+/views/restore-view back
+/views/camera/roll-camera 270
+/views/camera/zoom-camera 12
+/views/camera/target 0.006 -0.005 0
+
+/display/set/contours/surfaces 21
+
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+/display/contour velocity-magnitude 0 55
+/display/save-picture t40-incomp-inj-vmag.tiff
+
+/file/read-case-data "D:/03_PROJEKTY/08_HEM/Case/3D-icem/incompressible/6x25s_v07_5_5_s_complete.cas"
+/view/camera/projection orthographic
+
+/views/restore-view top
+/views/camera/roll-camera 270
+/views/camera/orbit-camera 0 55
+/views/camera/zoom-camera 5
+/views/camera/target 0.018 -0.005 -0.005
+
+/display/set/contours/surfaces 23
+
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+/display/contour velocity-magnitude 0 55
+/display/save-picture t55-incomp-merid-vmag.tiff
+
+/views/restore-view back
+/views/camera/roll-camera 270
+/views/camera/zoom-camera 12
+/views/camera/target 0.006 -0.005 0
+
+/display/set/contours/surfaces 21
+
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+/display/contour velocity-magnitude 0 55
+/display/save-picture t55-incomp-inj-vmag.tiff
+
+
+/file/read-case-data "D:/03_PROJEKTY/08_HEM/Case/3D-icem/incompressible/6x25s_v07_7s_complete.cas"
+/view/camera/projection orthographic
+
+/views/restore-view top
+/views/camera/roll-camera 270
+/views/camera/orbit-camera 0 55
+/views/camera/zoom-camera 5
+/views/camera/target 0.018 -0.005 -0.005
+
+/display/set/contours/surfaces 23
+
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+/display/contour velocity-magnitude 0 55
+/display/save-picture t70-incomp-merid-vmag.tiff
+
+/views/restore-view back
+/views/camera/roll-camera 270
+/views/camera/zoom-camera 12
+/views/camera/target 0.006 -0.005 0
+
+/display/set/contours/surfaces 21
+
+/display/set/picture/color-mode color
+/display/set/picture/driver tiff
+/display/set/contours/n-contour 21
+/display/set/contours/filled-contours yes
+/display/contour velocity-magnitude 0 55
+/display/save-picture t70-incomp-inj-vmag.tiff
