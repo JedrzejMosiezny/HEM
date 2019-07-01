@@ -4,4 +4,4 @@ w tui fluenta wpisujemy:
 
   use user defined real gas? [no] yes
 
-potem podajemy nazwê biblioteki, z której chcemy zaczytaæ model (nazwy folderów)
+potem podajemy nazwï¿½ biblioteki, z ktï¿½rej chcemy zaczytaï¿½ model (nazwy folderï¿½w)

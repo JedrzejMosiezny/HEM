@@ -30,7 +30,7 @@
  /* zakres temperatur dla R */
 #define TminR 150
 #define TmaxR 300
- 
+ e
  
  static int (*usersMessage)(char *,...);
  static void (*usersError)(char *,...);

@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 CSOURCES= $(SRC)FictiousGasCO2_t4_42-1bar.c
 HSOURCES=
 VERSION=3ddp_node
 PARALLEL_NODE=ibmmpi
 GPU_SUPPORT=off
+=======
+CSOURCES= $(SRC)FictiousGasCO2_t4_42-1bar.c
+HSOURCES=
+VERSION=3ddp_node
+PARALLEL_NODE=ibmmpi
+GPU_SUPPORT=off
+>>>>>>> eb9a20d137ee5a79723f22b7b16eee8437dd57aa
